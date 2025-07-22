@@ -37,12 +37,11 @@ pip install opencv-python mediapipe numpy
 
 ├── jarvis_security_interface.py     # Main script
 ├── authorized_face.jpg              # Reference image for biometric scan (optional)
-
+```
 📌 Note: Place a  facial image named authorized_face.jpg in the root folder for biometric authentication. Without it, the system runs in demo mode.
 
 ## How to Run
-
-```python
+```
 python jarvis_security_interface.py
 ```
 
